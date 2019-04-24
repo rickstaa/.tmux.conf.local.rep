@@ -42,7 +42,7 @@ tmux_conf_new_session_prompt=false
 # RGB 24-bit colour support (tmux >= 2.2), possible values are:
 #  - true
 #  - false (default)
-tmux_conf_theme_24b_colour=true
+tmux_conf_theme_24b_colour=false
 
 # window style
 tmux_conf_theme_window_fg='default'
@@ -248,11 +248,11 @@ tmux_conf_battery_vbar_palette='gradient'
 #tmux_conf_battery_vbar_palette='#d70000,#ff5f00,#5fff00'  # red, orange, green
 
 # symbols used to indicate whether battery is charging or discharging
-#tmux_conf_battery_status_charging='↑'       # U+2191
-#tmux_conf_battery_status_discharging='↓'    # U+2193
-tmux_conf_battery_status_charging='⚡ '    # U+26A1
+tmux_conf_battery_status_charging='↑'       # U+2191
+tmux_conf_battery_status_discharging='↓'    # U+2193
+#tmux_conf_battery_status_charging='⚡ '    # U+26A1
 #tmux_conf_battery_status_charging='🔌 '    # U+1F50C
-tmux_conf_battery_status_discharging='🔋 ' # U+1F50B
+#tmux_conf_battery_status_discharging='🔋 ' # U+1F50B
 
 # clock style
 tmux_conf_theme_clock_colour='#00afff'  # light blue
@@ -294,4 +294,5 @@ set -g mouse on
 #set -g status-position top
 
 # Set normal bash
-set-option -g default-command bash
+set -g default-shell "/bin/bash"
+set -g default-command "/bin/bash"
