@@ -8,10 +8,9 @@ Installation
 
 
 
-First install the tmux custimization from [https://github.com/gpakosz/.tmux](this repository).
+First install the [Oh My Tmux custimization repository ](https://github.com/gpakosz/.tmux).
 
-To install, run the following from your terminal: (you may want to backup your
-existing `~/.tmux.conf.local first)
+Then run the following from your terminal:
 
 ```
 $ cd
