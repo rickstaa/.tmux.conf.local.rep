@@ -294,5 +294,8 @@ set -g mouse on
 #set -g status-position top
 
 # Set normal bash
-set -g default-shell "/bin/bash"
-set -g default-command "/bin/bash"
+file_test="/.singularity_bashrc"
+if-shell '[ -n "$SINGULARITY_NAME" ] & [ -e "$file_test" ]' \
+	'set -g default-command "/bin/bash -rcfile $file_test"' \
+	'set -g default-command "/bin/bash"'
+
