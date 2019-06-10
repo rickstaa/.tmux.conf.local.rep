@@ -8,7 +8,7 @@ Installation
 
 
 
-First install the [Oh My Tmux custimization repository](https://github.com/gpakosz/.tmux).
+First install the [Oh My Tmux custimization repository](https://github.com/gpakosz/.tmux). Then install the [powerline fonts](https://github.com/powerline/fonts).
 
 Then run the following from your terminal:
 
