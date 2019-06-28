@@ -8,7 +8,7 @@ A backup repository I created to be able share my .tmux.conf.local.rep setup acr
 ### Dependencies
 This tmux setup depends on the following packages:
 
--[Oh My Tmux custimization repository](https://github.com/gpakosz/.tmux). 
+-[Oh My Tmux custimization repository](https://github.com/gpakosz/.tmux).
 -[powerline fonts](https://github.com/powerline/fonts).
 
 ### Installation instructions
