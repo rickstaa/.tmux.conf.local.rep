@@ -16,6 +16,6 @@ If you installed the dependencies you can install my .tmux configuration by runn
 
 ```
 $ cd
-$ git clone https://github.com/rickstaa/.tmux.conf.local.rep
+$ git clone https://github.com/rickstaa/.tmux.conf.local_rep
 $ ln -s -f .tmux.conf.local.rep/.tmux.conf.local
 ```
