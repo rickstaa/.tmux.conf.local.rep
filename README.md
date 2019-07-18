@@ -19,3 +19,6 @@ $ cd
 $ git clone https://github.com/rickstaa/.tmux.conf.local_rep
 $ ln -s -f .tmux.conf.local.rep/.tmux.conf.local
 ```
+
+### Notes
+If the symbolic link is colored red when you run the `ls -a` command you might need to use the `sudo ln -s -f .tmux.conf.local.rep/.tmux.conf.local` instead of `ln -s -f .tmux.conf.local.rep/.tmux.conf.local`.
