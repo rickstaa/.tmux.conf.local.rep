@@ -299,3 +299,18 @@ if-shell '[ -n "$SINGULARITY_NAME" ] & [ -e "$file_test" ]' \
 	'set -g default-command "/bin/bash -rcfile $file_test"' \
 	'set -g default-command "/bin/bash"'
 
+# -- tmux plugins --------------------------------------------------------------
+
+# List of plugins
+set -g @tpm_plugins '           \
+   tmux-plugins/tpm             \
+   tmux-plugins/tmux-continuum  \
+   tmux-plugins/tmux-resurrect  \
+   tmux-plugins/tmux-sidebar    \
+   tmux-plugins/tmux-yank       \
+   tmux-plugins/tmux-open       \
+'
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+run -b '~/.tmux/plugins/tpm/tpm'
+
