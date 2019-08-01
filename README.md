@@ -10,6 +10,7 @@ This tmux setup depends on the following packages:
 
 - [Oh My Tmux custimization repository](https://github.com/gpakosz/.tmux).
 - [powerline fonts](https://github.com/powerline/fonts).
+- [tmux plugin manager](https://github.com/tmux-plugins/tpm).
 
 ### Installation instructions
 If you installed the dependencies you can install my .tmux configuration by running the following commands in your terminal:
@@ -17,7 +18,7 @@ If you installed the dependencies you can install my .tmux configuration by runn
 ```
 $ cd
 $ git clone https://github.com/rickstaa/.tmux.conf.local_rep
-$ ln -s -f .tmux.conf.local.rep/.tmux.conf.local
+$ ln -s -f .tmux.conf.local_rep/.tmux.conf.local
 ```
 
 ### Notes
