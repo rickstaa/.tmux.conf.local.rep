@@ -304,6 +304,9 @@ if-shell '[ -n "$SINGULARITY_NAME" ] & [ -e "$file_test" ]' \
 unbind C-f
 bind C-t command-prompt -p find-session 'switch-client -t %%'
 
+# Tmux continuum settings
+set -g @continuum-restore 'on' # Automatic restore
+
 # -- tmux plugins --------------------------------------------------------------
 
 # List of plugins
