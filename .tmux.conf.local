@@ -305,7 +305,11 @@ unbind C-f
 bind C-t command-prompt -p find-session 'switch-client -t %%'
 
 # Tmux continuum settings
-set -g @continuum-restore 'on' # Automatic restore
+#set -g @continuum-restore 'on' # Automatic restore
+
+# Tmux bell settings
+set-window-option -g visual-bell on
+set-window-option -g bell-action other
 
 # -- tmux plugins --------------------------------------------------------------
 
