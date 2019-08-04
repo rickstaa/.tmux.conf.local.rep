@@ -12,6 +12,9 @@ This tmux setup depends on the following packages:
 - [powerline fonts](https://github.com/powerline/fonts).
 - [tmux plugin manager](https://github.com/tmux-plugins/tpm).
 
+#### Additional dependencies
+- For the [tmux-yank plugin](https://github.com/tmux-plugins/tmux-yank) to work you need to install the `xsel` package on your system. You can do this using the `apt install xsel` command.
+
 ### Installation instructions
 If you installed the dependencies you can install my .tmux configuration by running the following commands in your terminal:
 
