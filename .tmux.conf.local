@@ -307,9 +307,9 @@ bind C-t command-prompt -p find-session 'switch-client -t %%'
 # Tmux continuum settings
 #set -g @continuum-restore 'on' # Automatic restore
 
-# Tmux bell settings
-set-window-option -g visual-bell on
-set-window-option -g bell-action other
+# Tmux-notify settings
+set -g @tnotify-verbose 'on'
+set -g @tnotify-sleep-duration '1'
 
 # -- tmux plugins --------------------------------------------------------------
 
@@ -322,6 +322,7 @@ set -g @tpm_plugins '           \
    tmux-plugins/tmux-open       \
    tmux-plugins/tmux-copycat    \
    tmux-plugins/tmux-yank       \
+   ChanderG/tmux-notify         \
 '
 
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
