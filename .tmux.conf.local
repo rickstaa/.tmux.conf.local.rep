@@ -305,6 +305,7 @@ set -g @tpm_plugins '          \
   tmux-plugins/tmux-continuum  \
   tmux-plugins/tmux-open       \
   tmux-plugins/tmux-yank       \
+  tmux-plugins/tmux-copycat    \
 '
 
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
